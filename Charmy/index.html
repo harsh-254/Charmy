@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmy</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+</head>
+<body>
+    <!-- header -->
+    <nav id="header-container" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <div class="nav-img-logo"><img src="./assets/image/logo.png" width="100%" height="70%" id="head-nav-img"></div>
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text">
+                <i class="fa fa-bars fa-1x color-btn-log"></i>
+            </span>
+        </button>
+       <div class="collapse navbar-collapse nav-bar-div" id="navbarSupportedContent1">
+         <ul class="nav navbar-nav ml-auto">
+             <li class="nav-item"><a class="nav-link head-nav-a" href="index.html" onmouseover="textColor(this)" onmouseout="textCol(this)" style="color: white;">HOME</a></li>
+             <li class="nav-item"><a class="nav-link head-nav-a" id="active2" href="#about-us-container"onmouseover="textColor(this)" onmouseout="textCol(this)" style="color: white;">ABOUT</a></li>
+             <li class="nav-item"><a class="nav-link head-nav-a" id="active3" href="#product-container"onmouseover="textColor(this)" onmouseout="textCol(this)" style="color: white;">PRODUCT</a></li>
+             <li class="nav-item"><a class="nav-link head-nav-a" id="active3" href="#contact-us-container"onmouseover="textColor(this)" onmouseout="textCol(this)" style="color: white;">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- Home Image -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./assets/image/main.jpg" alt="First slide">
+    </div>  
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./assets/image/main.jpg" alt="Second slide">
+    </div>
+  </div>
+</div>
+   
+    <!-- Hero Section Container -->
+    <div id="hero-container">
+        <!-- About-US -->
+        <div id="about-us-container">
+            <img src="./assets/image/about.png" alt="about-us-image" class="about-us-image"/>
+            <div class="about-us-tex-container">
+                <p class="section-heading-text-size">WHO <span class="red-color-text">WE ARE !</span></p>
+                <p class="about-us-text section-text-size">The Founder of Charmy Products, has boundless enthusiasm in brining    superior quality stainless steel Kitchenware products, stainless steel kitchen rack, kitchen   storage rack etc Essconced in the year 2003, Charmy Products is sterling business house   engressed in the manufacturing and supplying of different types of Kitchen Stand, Pipe    Kitchen Stand, Wick Stove, Puri & Chapati Press. Aluminium Presum Cooker & Square Tin.</p>
+                <p class="red-color-text red-color-text-btm section-text-size">READMORE</p>
+            </div>
+        </div>
+
+        <!-- Products -->
+         <div id="product-container">
+            <p class="section-heading-text-size product-heading">FEATURED <span class="red-color-text">PRODUCT</span></p>
+            <p class="section-text-size">Welcome to the booming cosmos of Charmy Products-quality centric business house presenting wide assortment of Kitchenware products having multiple storage facility. We are one of the well-known kitchen storage rack manuacturers, invested in India. Made from top quality raw material of our Kitchenware products are ubiquitously praised for their nonpareil finishing, <br><br>            
+            Charmy Products is committed for achieving "Total Customer Satisfaction through</p>
+            <div class="product-photos-container">
+                <div class="prod1"><img src="./assets/image/p1.jpg" alt="" class="product-images"><p class="section-text-size product-image-text">Fruit Basket</p></div>
+                <div class="prod2"><img src="./assets/image/p2.jpg" alt="" class="product-images"><p class="section-text-size product-image-text">Veg. Basket</p></div>
+                <div class="prod3"><img src="./assets/image/p3.jpg" alt="" class="product-images"><p class="section-text-size product-image-text">Rice Stainer</p></div>
+                <div class="prod4"><img src="./assets/image/p4.jpg" alt="" class="product-images"><p class="section-text-size product-image-text">Stainer</p></div>
+            </div>
+         </div>
+        
+         <!-- Core Purpose -->
+         <div class="core-purpose-container">
+             <p class="section-heading-text-size">CORE <span class="red-color-text">PURPOSE</span></p>
+             <p class="section-text-size">Providing the road map to reach our goal is core purpose that is powerful, compelling and virtually limits in scope. By persuing our core purpose, our leadership inspires others - employees, dealer and customers to improve, do their best and be successful</p>
+             <div class="cards">
+                <div class="card" style="border: 0px solid white;">
+                    <img src="./assets/image/intigrity-icon.png" alt="integrity" class="card-img" style="width: 80px; margin: 0% 38%; margin-top: 15px; margin-bottom: 15px;">
+                    <div class="core-purpose-heading section-heading-text-size">INTEGRITY</div>
+                    <div class="core-purpose-text">Delivering and expecting the highest ethical conduct.</div>
+                </div>
+                <div class="card" style="border: 0px solid white;">
+                    <img src="./assets/image/service-icon.png" alt="services" class="card-img" style="width: 80px;  margin: 0% 38%; margin-top: 15px; margin-bottom: 15px;">
+                    <div class="core-purpose-heading">SERVICES</div>
+                    <div class="core-purpose-text">Exceeding expectations by paying attention to details.</div>
+                </div>
+                <div class="card" style="border: 0px solid white;">
+                    <img src="./assets/image/innovation-icon.png" alt="innovation" class="card-img" style="width: 80px;  margin: 0% 38%; margin-top: 15px; margin-bottom: 15px;">
+                    <div class="core-purpose-heading">INNOVATION
+                    <div class="core-purpose-text">Identifying and Seizing opportunities Through creative solutions.</div>
+                    </div>
+                </div>
+                <div class="card" style="border: 0px solid white;">
+                    <img src="./assets/image/teamwork-icon.png" alt="teamwork" class="card-img" style="width: 80px;  margin: 0% 38%; margin-top: 15px; margin-bottom: 15px;">
+                    <div class="core-purpose-heading">TEAMWORK</div>
+                    <div class="core-purpose-text">Supporting each other to enhance our collective strength.</div>
+                </div>
+                <div class="card" style="border: 0px solid white;">
+                    <img src="./assets/image/excellence-icon.png" alt="excellence" class="card-img" style="width: 80px; margin: 0% 38%; margin-top: 15px; margin-bottom: 15px;">
+                    <div class="core-purpose-heading">EXCELLENCE</div>
+                    <div class="core-purpose-text">Passionately dedicated to being the best.</div>
+                </div>
+                <div class="card" style="border: 0px solid white;">
+                    <img src="./assets/image/reflecting-icon.png" alt="reflecting" class="card-img" style="width: 80px; margin: 0% 38%; margin-top: 15px; margin-bottom: 15px;">
+                    <div class="core-purpose-heading">REFLECTING</div>
+                    <div class="core-purpose-text">Vibrant individuality EXPRESSING colorful sensuality.
+                    </div>
+                </div>
+            </div>
+            <p class="section-text-size">Quality matters a lot to us. This is the main reason why we have been successful to establish a brand into the market for kitchen products. We take better care of the product quality and looks.</p>
+        </div>
+    </div>
+
+    <!-- Footer image -->
+     <div class="foot-img">
+        <img src="./assets/image/footer-image.png" alt="footer-image" class="footer-image">
+     </div>
+    
+
+    <!-- Contact US  -->
+    <div id="contact-us-container">
+        <div class="flex-container">
+            <div class="foot-add">
+                <p class="foot-heading">CHARMY PRODUCT</p>
+                <p class="foot-text">"OM", Balaji Ind. Estate,<br>
+                    Plot No. 13,<br>
+                    Nr. Murlidhar Weigh-Bridge,<br>
+                    Manda Dungar,<br>
+                    RAJKOT - 360003,Gujrat-INDIA</p>
+            </div>
+            <div class="foot-nav">
+                <ul class="foot-text">
+                    <li><a href="index.html" class="foot-text-white" style="text-decoration: none;">Home</a></li>
+                    <li><a href="#about-us-container" class="foot-text-white" style="text-decoration: none;">About Us</a></li>
+                    <li><a href="#product-container" class="foot-text-white" style="text-decoration: none;">Product</a></li>
+                    <li><a href="#contact-us-container" class="foot-text-white" style="text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="foot-social">
+                <p class="contact-details foot-text">   
+                    +91 99252 20772 <br>
+                    sales@kitchenwareindia.co.in
+                </p>
+                <div>
+                    <i class="fa-brands fa-facebook fa-xs"></i>
+                    <i class="fa-brands fa-instagram fa-xs"></i>
+                    <i class="fab fa-twitter fa-xs"></i>
+                    <i class="fa-brands fa-pinterest fa-xs"></i>
+                    <i class="fa-brands fa-google fa-xs"></i>
+                    <i class="fa-solid fa-map-location-dot fa-xs"></i>
+                </div>
+                <br>
+                <div class="copyright-foot-media foot-text">
+                    Copyright &copy; Charmy 2023.| All right reserve
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright foot-text">
+        Copyright &copy; Charmy 2023.| All right reserve
+    </div>
+ 
+    <!-- Js File -->
+    <script src="./script.js"></script>
+    <!-- j-Query -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c877dad961.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+</body>
+</html>
